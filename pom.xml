@@ -30,7 +30,7 @@
         <dependency>
             <groupId>org.apache.poi</groupId>
             <artifactId>poi-ooxml</artifactId>
-            <version>4.1.2</version>
+            <version>5.2.5</version>
         </dependency>
         <!-- https://mvnrepository.com/artifact/commons-io/commons-io -->
         <dependency>
@@ -43,8 +43,8 @@
         <dependency>
             <groupId>org.testng</groupId>
             <artifactId>testng</artifactId>
-            <version>7.4.0</version>
-            <scope>test</scope>
+            <version>7.9.0</version>
+            <scope>compile</scope>
         </dependency>
         
         <!-- https://mvnrepository.com/artifact/com.mysql/mysql-connector-j -->
@@ -57,7 +57,7 @@
         <dependency>
             <groupId>com.aventstack</groupId>
             <artifactId>extentreports</artifactId>
-            <version>5.0.9</version>
+            <version>5.1.1</version>
         </dependency>
 
         <!-- Below are the dependencies required by maven for running testng testng.xml-->
@@ -80,6 +80,8 @@
             <version>1.18.30</version>
             <scope>provided</scope>
         </dependency>
+
+        
 
 
 
