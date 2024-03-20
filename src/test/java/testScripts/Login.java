@@ -16,5 +16,6 @@ public class Login extends BaseClass {
         l1.getLogInPhoneNumberTF().sendKeys("8088634021");
         l1.getLogInLoginBtn().click();
         l1.getLogInOtpTF().sendKeys("3"+"9"+"9"+"1");
+
     }
 }
