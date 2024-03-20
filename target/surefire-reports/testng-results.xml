@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
     <line>
       <![CDATA[Opening the Browser]]>
@@ -7,58 +7,69 @@
     <line>
       <![CDATA[Closing the Browser]]>
     </line>
-    <line>
-      <![CDATA[Opening the Browser]]>
-    </line>
-    <line>
-      <![CDATA[Closing the Browser]]>
-    </line>
   </reporter-output>
-  <suite started-at="2024-03-19T15:09:57 IST" name="Suite1" finished-at="2024-03-19T15:10:13 IST" duration-ms="15994">
+  <suite started-at="2024-03-20T14:59:23 IST" name="Suite1" finished-at="2024-03-20T14:59:31 IST" duration-ms="8003">
     <groups>
     </groups>
-    <test started-at="2024-03-19T15:09:57 IST" name="SignUpTest" finished-at="2024-03-19T15:10:05 IST" duration-ms="8133">
-      <class name="testScripts.SignUp">
-        <test-method is-config="true" signature="openBrowser()[pri:0, instance:testScripts.SignUp@22a637e7]" started-at="2024-03-19T15:09:57 IST" name="openBrowser" finished-at="2024-03-19T15:09:58 IST" duration-ms="1332" status="PASS">
-          <reporter-output>
-            <line>
-              <![CDATA[Opening the Browser]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- openBrowser -->
-        <test-method signature="signUp()[pri:0, instance:testScripts.SignUp@22a637e7]" started-at="2024-03-19T15:09:58 IST" name="signUp" finished-at="2024-03-19T15:10:02 IST" duration-ms="3677" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- signUp -->
-        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:testScripts.SignUp@22a637e7]" started-at="2024-03-19T15:10:02 IST" name="closeBrowser" finished-at="2024-03-19T15:10:05 IST" duration-ms="3107" status="PASS">
-          <reporter-output>
-            <line>
-              <![CDATA[Closing the Browser]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- closeBrowser -->
-      </class> <!-- testScripts.SignUp -->
-    </test> <!-- SignUpTest -->
-    <test started-at="2024-03-19T15:10:05 IST" name="LoginTest" finished-at="2024-03-19T15:10:13 IST" duration-ms="7835">
+    <test started-at="2024-03-20T14:59:23 IST" name="LoginTest" finished-at="2024-03-20T14:59:31 IST" duration-ms="8003">
       <class name="testScripts.Login">
-        <test-method is-config="true" signature="openBrowser()[pri:0, instance:testScripts.Login@30ee2816]" started-at="2024-03-19T15:10:05 IST" name="openBrowser" finished-at="2024-03-19T15:10:06 IST" duration-ms="533" status="PASS">
+        <test-method is-config="true" signature="initializeExReports()[pri:0, instance:testScripts.Login@4c9f8c13]" started-at="2024-03-20T14:59:23 IST" name="initializeExReports" finished-at="2024-03-20T14:59:23 IST" duration-ms="74" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializeExReports -->
+        <test-method is-config="true" signature="openBrowser()[pri:0, instance:testScripts.Login@4c9f8c13]" started-at="2024-03-20T14:59:23 IST" name="openBrowser" finished-at="2024-03-20T14:59:25 IST" duration-ms="1358" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[Opening the Browser]]>
             </line>
           </reporter-output>
         </test-method> <!-- openBrowser -->
-        <test-method signature="login()[pri:0, instance:testScripts.Login@30ee2816]" started-at="2024-03-19T15:10:06 IST" name="login" finished-at="2024-03-19T15:10:10 IST" duration-ms="4199" status="PASS">
+        <test-method signature="login()[pri:0, instance:testScripts.Login@4c9f8c13]" started-at="2024-03-20T14:59:25 IST" name="login" finished-at="2024-03-20T14:59:28 IST" duration-ms="3515" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- login -->
-        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:testScripts.Login@30ee2816]" started-at="2024-03-19T15:10:10 IST" name="closeBrowser" finished-at="2024-03-19T15:10:13 IST" duration-ms="3101" status="PASS">
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:testScripts.Login@4c9f8c13]" started-at="2024-03-20T14:59:28 IST" name="closeBrowser" finished-at="2024-03-20T14:59:31 IST" duration-ms="3105" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[Closing the Browser]]>
             </line>
           </reporter-output>
         </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="generateExReports()[pri:0, instance:testScripts.Login@4c9f8c13]" started-at="2024-03-20T14:59:31 IST" name="generateExReports" finished-at="2024-03-20T14:59:31 IST" duration-ms="1" status="FAIL">
+          <exception class="java.lang.NullPointerException">
+            <message>
+              <![CDATA[Cannot invoke "com.aventstack.extentreports.ExtentReports.flush()" because "generic.BaseClass.exReports" is null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException: Cannot invoke "com.aventstack.extentreports.ExtentReports.flush()" because "generic.BaseClass.exReports" is null
+at generic.BaseClass.generateExReports(BaseClass.java:27)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:69)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:393)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:326)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:410)
+at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1228)
+at org.testng.TestNG.runSuites(TestNG.java:1134)
+at org.testng.TestNG.run(TestNG.java:1101)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:308)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:71)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- generateExReports -->
       </class> <!-- testScripts.Login -->
     </test> <!-- LoginTest -->
   </suite> <!-- Suite1 -->

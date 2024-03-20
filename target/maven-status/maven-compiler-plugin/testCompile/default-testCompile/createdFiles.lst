@@ -2,6 +2,7 @@ pom/LoginPage.class
 testScripts/LinkClasses.class
 testScripts/Login.class
 pom/HomePage.class
+generic/ExtentReportUtils.class
 pom/GetStartedPage.class
 testScripts/TestNGCheck.class
 testScripts/SignUp.class
