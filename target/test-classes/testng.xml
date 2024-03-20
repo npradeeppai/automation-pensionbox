@@ -10,13 +10,13 @@
     </classes>
   </test> 
 -->
-<!--
+
   <test name="SignUpTest">
     <classes>
        <class name="testScripts.SignUp"/>
     </classes>
   </test>
--->
+
   <test name="LoginTest">
     <classes>
        <class name="testScripts.Login"/>
