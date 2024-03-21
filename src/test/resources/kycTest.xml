@@ -2,7 +2,7 @@
 <suite name="UserOnboardingTest">
     <test name="SignupLoginTest">
         <classes>
-            <class name="testScripts.SignUp"/>
+            <class name="testScripts.Login"/>
             <class name="testScripts.Login"/>
                 <!--     
                     <methods>
