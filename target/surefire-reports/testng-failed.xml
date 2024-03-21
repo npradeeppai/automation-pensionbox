@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [UserOnboardingTest]" guice-stage="DEVELOPMENT" verbose="0">
+  <test thread-count="5" name="SignupLoginTest(failed)" verbose="0">
+    <classes>
+      <class name="testScripts.SignUp">
+        <methods>
+          <include name="signUp"/>
+          <include name="closeBrowser"/>
+          <include name="openBrowser"/>
+        </methods>
+      </class> <!-- testScripts.SignUp -->
+    </classes>
+  </test> <!-- SignupLoginTest(failed) -->
+</suite> <!-- Failed suite [UserOnboardingTest] -->
