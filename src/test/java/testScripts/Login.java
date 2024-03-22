@@ -6,7 +6,7 @@ import generic.BaseClass;
 import pom.HomePage;
 import pom.LoginPage;
 
-public class Login extends BaseClass {
+public class Login extends BaseClass{
     @Test
     public void login(){
         HomePage h1=new HomePage(driver);

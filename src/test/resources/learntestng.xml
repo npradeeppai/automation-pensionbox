@@ -2,8 +2,8 @@
 <suite name="UserOnboardingTest">
     <test name="SignupLoginTest">
         <classes>
-            <class name="testScripts.SignUp"/>
-            <class name="testScripts.Login"/>
+            <class name="testScripts.KycFlow"/>
+            <!-- <class name="testScripts.Login"/> -->
                 <!--     
                     <methods>
                         <include  />
