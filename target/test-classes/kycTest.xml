@@ -1,0 +1,14 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="UserOnboardingTest">
+    <test name="KYC Test">
+        <classes>
+            <class name="testScripts.KycFlow"/>
+            <!-- <class name="testScripts.Login"/> -->
+                <!--     
+                    <methods>
+                        <include  />
+                    </methods>
+                -->    
+        </classes>
+    </test>
+</suite>    
