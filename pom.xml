@@ -82,11 +82,6 @@
             <version>1.18.30</version>
             <scope>provided</scope>
         </dependency>
-
-        
-
-
-
     </dependencies>
     <build>
         <plugins>
@@ -98,7 +93,9 @@
                 <version>3.2.5</version>
                 <configuration>
                   <suiteXmlFiles>
-                    <suiteXmlFile>src/test/resources/learntestng.xml</suiteXmlFile>
+                    <!-- <suiteXmlFile>src/test/resources/testng.xml</suiteXmlFile> -->
+                    <!-- <suiteXmlFile>src/test/resources/learntestng.xml</suiteXmlFile> -->
+                    <suiteXmlFile>src/test/resources/kycTest.xml</suiteXmlFile>
                   </suiteXmlFiles>
                 </configuration>
               </plugin>
